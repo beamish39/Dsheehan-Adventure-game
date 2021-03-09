@@ -1,0 +1,118 @@
+
+#container{
+    width: 800px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.list{
+    color: rgb(54, 173, 18);
+    font-size: large;
+}
+.chat{
+    font-style: oblique;
+    color: rgb(15, 161, 167);
+    border-style: double;
+    border-color: rgba(9, 151, 104, 0.486);
+    width: 1250px;
+    overflow-wrap: break-word;
+  
+}
+a:hover {
+    color: rgb(238, 223, 12);
+}
+
+h1{
+    color: crimson;
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: orangered;
+}
+    
+h3{
+    text-align: center;
+    color: rgb(196, 155, 20);
+}
+
+p{
+    color: rgb(77, 56, 11);
+    border-style: ridge;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+pre{
+    text-align: center;
+    color: rgb(248, 245, 245);
+    font-size: 20px;
+    text-align: justify;
+    overflow-wrap: break-word;   
+}
+
+.title{
+    text-align: center;
+  text-shadow: 2px 2px 5px rgb(224, 216, 217);  
+}
+.blood{
+    color: red;
+    
+
+}
+pre:first-letter {
+    font-size: 200%;
+    color: #eeea08;
+}
+.img {
+    display: block;
+    border: 5px solid rgb(209, 13, 144);
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .sign {
+    display: block;
+    border: 5px dotted rgb(223, 149, 13);
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  body{
+      background-image: url(../images/background.jpg) ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+  }
+  .twitter{
+      background-color: ivory;
+    font-style: initial ;
+    color: rgb(14, 75, 243);
+    border-style: double;
+    width: 1250px;
+
+  }
+  .column {
+    flex: 33.33%;
+  padding: 10px;  
+  }
+  
+  .row{
+    display: flex;
+    border: 5px solid rgb(209, 13, 144);
+  }
+  .video{
+   
+  max-width: 560px; 
+  max-height: 315px;
+ margin-right: auto;
+ margin-left: auto;  
+  }
+  .gif {
+    display: block;
+    border: 10px groove rgb(233, 226, 231);
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  
